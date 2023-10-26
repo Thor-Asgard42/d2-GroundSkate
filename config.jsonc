@@ -1,0 +1,29 @@
+{
+  // 只更改后面有中文注释的行即可, 没注释的或者英文注释的行不用管
+  "tooltip_pos": {
+    "x":300,
+    "y":0
+  },
+  "key_bindings" : {
+    // 功能键位设置, 这里设置的按键将用来开关或使用脚本功能, 留空表示不使用这个功能(退出和重载不能留空)
+    // hotkey settings
+    "ground_skate": "6",                // 平地超级跳触发键
+    "reload": "F7",                     // 重载脚本
+    "exit": "F8",                       // 退出脚本
+
+    // 游戏键位设置, 填入你游戏中对应的键位即可, 尽量使用字母按键, 全部小写
+    // in-game keybind settings
+    "heavy_weapon": "3",                // 3号位武器
+    "jump": "space",                    // 跳跃
+    "light_attack": "lbutton",          // 刀剑轻击
+    "interact": "e",                    // 互动键
+    "sword_block": "c",                 // 刀剑格挡
+    "super": "f",                       // 超能
+    "air_move": "x"                     // 空中移动(冰猎的x)
+  },
+  "values": {
+    "guardian_class": "warlock",        // 角色职业, 只能是术士或者猎人 (warlock | hunter)
+    "skate_delay": 500,                 // 切换到3号位之后的等待时间   // delay after swap to your sword
+    "interact_duration": 165            // 互动的持续时间, 用于vog捡盾 // interact time for pickup relic
+  }
+}
